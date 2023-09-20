@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    min-height: 100vh;
+}
+
+#cubo {
+    width: 100%;
+    height: 20vh;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.titulo{
+    color: aliceblue;
+}
+
+.logo{
+    width: 10%;
+    height: 43%;
+    background-image: url("https://document-export.canva.com/8yh_8/DAFmL28yh_8/16/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230912T083834Z&X-Amz-Expires=72755&X-Amz-Signature=d5e4be8188950c57203399819628ef65e3a8434230d52d9f3dcd9ec8571a407b&X-Amz-SignedHeaders=host&response-expires=Wed%2C%2013%20Sep%202023%2004%3A51%3A09%20GMT");
+    border-radius: 50%;
+}
