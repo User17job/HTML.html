@@ -1,0 +1,53 @@
+body{
+    background-color: palevioletred;
+}
+
+h3{
+    font-size: 33px;
+    color: palevioletred;
+    
+}
+
+.paranav{
+    display: flex;
+    width: 50%;
+    height: 450px;
+}
+.nav2{
+    position: relative;
+    left: 30%;
+    top: 80px;
+    text-align:center;
+    padding-top: 0px;    
+    border: 1px solid;
+    border-color: wheat;
+    background-color: wheat;
+    width: 40%;
+    height: 100PX;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    transition: 2s;
+    
+}
+
+h3:hover{
+    font-size: 35px;  
+    color: rgb(216, 93, 134);
+    
+}
+
+.paranav:hover{
+    display: flex;
+    width: 50%;
+    height: 450px;
+}
+.nav2:hover{
+     
+    border: 1px solid;
+    border-color: wheat;
+    background-color: wheat;
+    width: 40%;
+    height: 400PX;
+    white-space: wrap;
+}
