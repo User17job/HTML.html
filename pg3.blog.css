@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(125deg, rgb(3, 3, 96) 0%,   rgb(31, 96, 248) 100%);
+    background-image: linear-gradient(125deg, rgb(5, 5, 67) 0%,   rgb(3, 69, 223) 100%);
     min-height: 100vh;
 }
 
@@ -35,8 +35,6 @@ body{
     position: absolute;
     margin-top: 40px;
 }
- 
-
 .tres{
     width: 17%;
     height: 60px;
@@ -80,7 +78,7 @@ body{
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
+    position: absolute;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
@@ -117,18 +115,19 @@ body{
   }
 .four{
     color: black;
-    position: sticky;
-    margin-top: -10%;
+    position: relative;
+    margin-top: 5%;
+    left: 12.5%;
     font-size: 700%;
     font-weight:bolder;
     text-decoration:underline;
     font-family: 'Open Sans', sans-serif;
 }
 .fou{
-    color: rgb(13, 1, 1);
-    position:  sticky;
-    right: 20%;
-    margin-top: -38%;
+    color: rgba(0, 0, 0, 0.838);
+    position:  relative;
+    left: 9.5%;
+    margin-top: -39%;
     font-size: 700%;
     font-weight:bolder;
     text-decoration:underline;
@@ -136,19 +135,19 @@ body{
 }
 .fo{
     color:aqua;
-    position:inherit;
-    left: 1.5%;
-    margin-top: -50%;
+    position: relative;
+    left: 11.5%;
+    margin-top: -39%;
     font-size: 700%;
     font-weight:bolder;
     text-decoration:underline;
     font-family: 'Open Sans', sans-serif;
 }
 .fu{
-    color: red;
-    position:sticky;
-    left: 0%;
-    margin-top: -20%;
+    color: rgb(162, 14, 14);
+    position: relative;
+    left: 10.5%;
+    margin-top: -36%;
     font-size: 700%;
     font-weight:bolder;
     text-decoration:underline;
